@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li class="active">
+                        <a class="active" href="#"><i class="fa-solid fa-house"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Eng-TariqHijazi"><i class="fa-solid fa-user"></i>About Me</a>
+                    </li>
+                    <li>
+                        <a href="mailto:tariq.t.m.hijazi@gmail.com"><i class="fa-solid fa-phone"></i>Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="content">
+                <span>Welcome to my site</span>
+                <h1>Hi, I'm Tariq, a Computer <span>Engineering.</span></h1>
+                <p>My name is Tariq Tawfig Hijazi. I graduated from Islamic University of Gaza with a major in Computer
+                    Engineering, achieving a good grade. I have a passion for learning Web Development.</p>
+                <div class="button">
+                    <button onclick="hireMe()">Hire me!</button>
+                    <button onclick="seeProject()">See My Project</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/tariq.jpg" alt="man">
+                <div class="back"></div>
+            </div>
+        </div>
+    </main>
+    <script>
+        function hireMe() {
+            window.location.href = "mailto:tariq.t.m.hijazi@gmail.com";
+        }
+        function seeProject() {
+            window.location.href = "https://github.com/Eng-TariqHijazi";
+        }
+    </script>
+</body>
+
+</html>
